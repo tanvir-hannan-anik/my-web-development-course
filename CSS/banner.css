@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6d6d6;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.banner {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  background-color: lightcyan;
+}
+
+.banner-info-container {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+.banner-info-container h1 {
+  margin-bottom: 10px;
+  font-family: monospace;
+  color: dodgerblue;
+}
+.banner-info-container button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: rgb(236, 94, 94);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.banner-info-container button:hover {
+  background-color: rgb(236, 94, 94, 0.7);
+}
+.banner-img-container {
+  flex: 1;
+}
+.banner-img-container img {
+  margin-left: 20%;
+  width: 50%;
+}

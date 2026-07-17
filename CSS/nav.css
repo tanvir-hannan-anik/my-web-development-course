@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    
+}
+nav{
+    background-color: bisque;
+    padding-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav ul li {
+    background-color: brown;
+    border-radius: 28px;
+    margin: 15px;
+    padding: 10px;
+}
+nav ul li:hover{
+    background-color: rgb(132, 28, 45);
+    box-shadow: 0 5px 10px black;
+}
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
