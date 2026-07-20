@@ -30,3 +30,20 @@ Withdraw = 5000
 Output
 Withdraw Successful
 Remaining Balance = 15000 */
+
+const prompt = require("prompt-sync")();
+
+let pin = Number(prompt("Enter your PIN: "));
+let balance = 3000;
+let withdraw = Number(prompt("Enter your Withdraw Amount: "));
+
+if (pin !== 1234) {
+    console.log("Invalid PIN");
+} else if (withdraw > balance) {
+    console.log("Insufficient balance");
+} else {
+    balance -= withdraw;
+    console.log("Withdrawal Successful");
+    console.log("Withdrawn:", withdraw);
+    console.log("Current Balance:", balance);
+}
