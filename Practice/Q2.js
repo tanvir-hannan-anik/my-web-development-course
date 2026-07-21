@@ -29,7 +29,9 @@ Withdraw = 5000
 
 Output
 Withdraw Successful
-Remaining Balance = 15000 */
+Remaining Balance = 15000 
+
+npm install prompt-sync*/
 
 const prompt = require("prompt-sync")();
 
